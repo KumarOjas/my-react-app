@@ -13,6 +13,7 @@ const Login = () => {
         <button className="create-account" onClick={() => navigate("/signup")} style={{ backgroundColor: "brightpurple", padding: "10px 15px", border: "none", borderRadius: "5px" }}>
           Create Account
         </button>
+            <br></br>
         <button className="login-button" onClick={() => navigate("/login")}>Already Registered? Login</button>
       </div>
     </div>
